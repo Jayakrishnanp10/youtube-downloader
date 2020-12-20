@@ -10,7 +10,7 @@ class youtube(Frame):
         self.master.title("YOUTUBE DOWNLOADER")
         self.master.geometry("500x200")
         self.master.configure(bg="#e85348")
-        self.p1 = PhotoImage(file ="C:/Users/pjaya/Documents/appu/python/youtube-downloader/yt.png")
+        self.p1 = PhotoImage(file ="yt.png")
         self.master.iconphoto(False, self.p1)
         self.configure(bg="#e85348")
         self.style=ttk.Style()
